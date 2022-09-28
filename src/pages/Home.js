@@ -27,7 +27,7 @@ const Home = () => {
                                 <p class="text-gray-700 text-base mb-4">
                                     Training students with no experience (Novice drivers)
                                 </p>
-                                <button type="button" class=" inline-block px-6 py-2.5 bg-[#424242] text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-[#616161] hover:shadow-lg focus:bg-[#616161] focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Book Now</button>
+                                <button type="button" class=" inline-block px-6 py-2.5 bg-[#424242] text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-[#616161] hover:shadow-lg focus:bg-[#616161] focus:shadow-lg focus:outline-none focus:ring-0 active:bg-[#616161] active:shadow-lg">Book Now</button>
                             </div>
                         </div>
                     </div>
@@ -44,7 +44,7 @@ const Home = () => {
                                 <p class="text-gray-700 text-base mb-4">
                                     Training for Restricted Test / Mock Restricted Test
                                 </p>
-                                <button type="button" class=" inline-block px-6 py-2.5 bg-[#424242] text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-[#616161] hover:shadow-lg focus:bg-[#616161] focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Book Now</button>
+                                <button type="button" class=" inline-block px-6 py-2.5 bg-[#424242] text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-[#616161] hover:shadow-lg focus:bg-[#616161] focus:shadow-lg focus:outline-none focus:ring-0 active:bg-[#616161] active:shadow-lg">Book Now</button>
                             </div>
                         </div>
                     </div>
@@ -61,7 +61,7 @@ const Home = () => {
                                 <p class="text-gray-700 text-base mb-4">
                                     Training for Full Licence Test / Mock Full Licence Test
                                 </p>
-                                <button type="button" class=" inline-block px-6 py-2.5 bg-[#424242] text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-[#616161] hover:shadow-lg focus:bg-[#616161] focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Book Now</button>
+                                <button type="button" class=" inline-block px-6 py-2.5 bg-[#424242] text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-[#616161] hover:shadow-lg focus:bg-[#616161] focus:shadow-lg focus:outline-none focus:ring-0 active:bg-[#616161] active:shadow-lg">Book Now</button>
                             </div>
                         </div>
                     </div>
@@ -78,7 +78,7 @@ const Home = () => {
                                 <p class="text-gray-700 text-base mb-4">
                                     Training for Overseas Converion
                                 </p>
-                                <button type="button" class=" inline-block px-6 py-2.5 bg-[#424242] text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-[#616161] hover:shadow-lg focus:bg-[#616161] focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Book Now</button>
+                                <button type="button" class=" inline-block px-6 py-2.5 bg-[#424242] text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-[#616161] hover:shadow-lg focus:bg-[#616161] focus:shadow-lg focus:outline-none focus:ring-0 active:bg-[#616161] active:shadow-lg">Book Now</button>
                             </div>
                         </div>
                     </div>
@@ -95,7 +95,7 @@ const Home = () => {
                                 <p class="text-gray-700 text-base mb-4">
                                     Car hire only possible for sitting a driving test (Strict Conditions Apply)
                                 </p>
-                                <button type="button" class=" inline-block px-6 py-2.5 bg-[#424242] text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-[#616161] hover:shadow-lg focus:bg-[#616161] focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Book Now</button>
+                                <button type="button" class=" inline-block px-6 py-2.5 bg-[#424242] text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-[#616161] hover:shadow-lg focus:bg-[#616161] focus:shadow-lg focus:outline-none focus:ring-0 active:bg-[#616161] active:shadow-lg">Book Now</button>
                             </div>
                         </div>
                     </div>
@@ -119,7 +119,7 @@ const Home = () => {
                             <p class="text-gray-700 text-base mb-12 md:mb-6 lg:mb-12 xl:mb-14 text-left">
                                 5 lesson package deal for $300.00 (5 lessons / 5 hours)
                             </p>
-                            <button type="button" class=" inline-block mb-1 md:mb-0 xl:mb-4 px-6 py-2.5 bg-[#424242] text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-[#616161] hover:shadow-lg focus:bg-[#616161] focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Book Now</button>
+                            <button type="button" class=" inline-block mb-1 md:mb-0 xl:mb-4 px-6 py-2.5 bg-[#424242] text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-[#616161] hover:shadow-lg focus:bg-[#616161] focus:shadow-lg focus:outline-none focus:ring-0 active:bg-[#616161] active:shadow-lg">Book Now</button>
                         </div>
                     </div>
                 </div>
