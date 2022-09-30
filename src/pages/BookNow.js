@@ -106,7 +106,7 @@ const BookNow = () => {
                                 <option value="Training for Novice Drivers">Training for students with no experience (Beginners / Novice drivers)</option>
                                 <option value="Training for Restricted Licence">Training for Restricted Test / Mock Restricted Test</option>
                                 <option value="Training for Full Licence">Training for Full Licence Test / Mock Full Licence Test</option>
-                                <option value="Training for Overseas Converion">Training for Overseas Converion</option>
+                                <option value="Training for Overseas Conversion">Training for Overseas Conversion</option>
                                 <option value="Car Hire">Car hire for sitting your driving test (Strict Conditions Apply)</option>
                             </select>
                         </div>

@@ -1,7 +1,6 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import 'tw-elements';
-import AboutUsImg from '../images/About-Us copy.png'
+import AboutUsImg from '../images/About-Us.png'
 
 const AboutUs = () => {
     return (
@@ -10,7 +9,7 @@ const AboutUs = () => {
                 <div class="carousel-inner relative w-full overflow-hidden">
                     <div class="carousel-item active relative float-left w-full">
                         <div className='flex justify-center items-center'>
-                            <img src={AboutUsImg} className='block w-[100vw] brightness-[0.6] h-[20vh] sm:h-[32vh] md:h-[32vh] lg:h-[32vh] xl:h-[80vh] object-cover'></img>
+                            <img src={AboutUsImg} className='block w-[100vw] brightness-[0.6] h-[20vh] sm:h-[32vh] md:h-[32vh] lg:h-[32vh] xl:h-[80vh] object-cover' alt=''></img>
                             <div class="text-[#fff] md:block absolute text-center">
                                 <h5 class="text-[25px] font-semibold md:text-[50px] lg:text-[60px] xl:text-[80px] font-BebasNeue">About Us</h5>
                                 <p className='text-[10px] md:text-[15px] lg:text-[20px] xl:text-[25px] font-bold sm:font-bold max-w-[75vw] sm:max-w-[70vw]'>Brilliant Driving Academy believes in relentless pursuit of exceptional driving by providing very high quality driving instructions.</p>
