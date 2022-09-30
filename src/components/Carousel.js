@@ -37,7 +37,7 @@ const Carousel = () => {
                         />
                         <div class="text-[#fff] md:block absolute text-center">
                             <h5 class="text-[25px] font-semibold md:text-[50px] lg:text-[60px] xl:text-[80px] font-BebasNeue">Where your driving journey begins</h5>
-                            <p className='text-[12px] md:text-[25px] lg:text-[30px] font-bold sm:font-bold'>16 years of experience in New Zealand</p>
+                            <p className='text-[14px] md:text-[25px] lg:text-[30px] font-extrabold sm:font-extrabold'>16 years of experience in New Zealand <br></br> (12 years of experience with AA)</p>
                         </div>
                     </div>
                 </div>
