@@ -1,5 +1,6 @@
 import React from 'react'
 import Carousel from '../components/Carousel'
+import { Link } from 'react-router-dom'
 
 import LearnerImg from '../images/learner.jpg'
 import RestrictedImg from '../images/restricted.jpg'
@@ -19,15 +20,17 @@ const Home = () => {
                 <div className='inline-block'>
                     <div class="flex justify-center">
                         <div class="rounded-lg shadow-lg bg-[#fdd835] max-w-sm">
-                            <a href="#!">
+                            <Link to="/book-now">
                                 <img class="rounded-t-lg" src={LearnerImg} alt=""/>
-                            </a>
+                            </Link>
                             <div class="p-6">
                                 <h5 class="text-gray-900 text-xl font-medium mb-2">Driving Lessons</h5>
                                 <p class="text-gray-700 text-base mb-4">
-                                    Training students with no experience (Novice drivers)
+                                    Training for students with no experience (Novice drivers)
                                 </p>
-                                <button type="button" class=" inline-block px-6 py-2.5 bg-[#424242] text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-[#616161] hover:shadow-lg focus:bg-[#616161] focus:shadow-lg focus:outline-none focus:ring-0 active:bg-[#616161] active:shadow-lg">Book Now</button>
+                                <Link to="/book-now">
+                                    <button type="button" class=" inline-block px-6 py-2.5 bg-[#424242] text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-[#616161] hover:shadow-lg focus:bg-[#616161] focus:shadow-lg focus:outline-none focus:ring-0 active:bg-[#616161] active:shadow-lg">Book Now</button>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -36,15 +39,17 @@ const Home = () => {
                 <div className='inline-block'>
                     <div class="flex justify-center">
                         <div class="rounded-lg shadow-lg bg-[#fdd835] max-w-sm">
-                            <a href="#!">
+                            <Link to="/book-now">
                                 <img class="rounded-t-lg" src={RestrictedImg} alt=""/>
-                            </a>
+                            </Link>
                             <div class="p-6">
                                 <h5 class="text-gray-900 text-xl font-medium mb-2">Driving Lessons</h5>
                                 <p class="text-gray-700 text-base mb-4">
                                     Training for Restricted Test / Mock Restricted Test
                                 </p>
-                                <button type="button" class=" inline-block px-6 py-2.5 bg-[#424242] text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-[#616161] hover:shadow-lg focus:bg-[#616161] focus:shadow-lg focus:outline-none focus:ring-0 active:bg-[#616161] active:shadow-lg">Book Now</button>
+                                <Link to="/book-now">
+                                    <button type="button" class=" inline-block px-6 py-2.5 bg-[#424242] text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-[#616161] hover:shadow-lg focus:bg-[#616161] focus:shadow-lg focus:outline-none focus:ring-0 active:bg-[#616161] active:shadow-lg">Book Now</button>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -53,15 +58,17 @@ const Home = () => {
                 <div className='inline-block'>
                     <div class="flex justify-center">
                         <div class="rounded-lg shadow-lg bg-[#fdd835] max-w-sm">
-                            <a href="#!">
+                            <Link to="/book-now">
                                 <img class="rounded-t-lg" src={FullLicImg} alt=""/>
-                            </a>
+                            </Link>
                             <div class="p-6">
                                 <h5 class="text-gray-900 text-xl font-medium mb-2">Driving Lessons</h5>
                                 <p class="text-gray-700 text-base mb-4">
                                     Training for Full Licence Test / Mock Full Licence Test
                                 </p>
-                                <button type="button" class=" inline-block px-6 py-2.5 bg-[#424242] text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-[#616161] hover:shadow-lg focus:bg-[#616161] focus:shadow-lg focus:outline-none focus:ring-0 active:bg-[#616161] active:shadow-lg">Book Now</button>
+                                <Link to="/book-now">
+                                    <button type="button" class=" inline-block px-6 py-2.5 bg-[#424242] text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-[#616161] hover:shadow-lg focus:bg-[#616161] focus:shadow-lg focus:outline-none focus:ring-0 active:bg-[#616161] active:shadow-lg">Book Now</button>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -70,15 +77,17 @@ const Home = () => {
                 <div className='inline-block'>
                     <div class="flex justify-center">
                         <div class="rounded-lg shadow-lg bg-[#fdd835] max-w-sm">
-                            <a href="#!">
+                            <Link to="/book-now">
                                 <img class="rounded-t-lg" src={InternationalImg} alt=""/>
-                            </a>
+                            </Link>
                             <div class="p-6">
                                 <h5 class="text-gray-900 text-xl font-medium mb-2">Driving Lessons</h5>
                                 <p class="text-gray-700 text-base mb-4">
                                     Training for Overseas Converion
                                 </p>
-                                <button type="button" class=" inline-block px-6 py-2.5 bg-[#424242] text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-[#616161] hover:shadow-lg focus:bg-[#616161] focus:shadow-lg focus:outline-none focus:ring-0 active:bg-[#616161] active:shadow-lg">Book Now</button>
+                                <Link to="/book-now">
+                                    <button type="button" class=" inline-block px-6 py-2.5 bg-[#424242] text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-[#616161] hover:shadow-lg focus:bg-[#616161] focus:shadow-lg focus:outline-none focus:ring-0 active:bg-[#616161] active:shadow-lg">Book Now</button>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -87,15 +96,17 @@ const Home = () => {
                 <div className='inline-block'>
                     <div class="flex justify-center">
                         <div class="rounded-lg shadow-lg bg-[#fdd835] max-w-sm">
-                            <a href="#!">
+                            <Link to="/book-now">
                                 <img class="rounded-t-lg" src={HireImg} alt=""/>
-                            </a>
+                            </Link>
                             <div class="p-6">
                                 <h5 class="text-gray-900 text-xl font-medium mb-2">Car Hire</h5>
                                 <p class="text-gray-700 text-base mb-4">
                                     Car hire only possible for sitting a driving test (Strict Conditions Apply)
                                 </p>
-                                <button type="button" class=" inline-block px-6 py-2.5 bg-[#424242] text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-[#616161] hover:shadow-lg focus:bg-[#616161] focus:shadow-lg focus:outline-none focus:ring-0 active:bg-[#616161] active:shadow-lg">Book Now</button>
+                                <Link to="/book-now">
+                                    <button type="button" class=" inline-block px-6 py-2.5 bg-[#424242] text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-[#616161] hover:shadow-lg focus:bg-[#616161] focus:shadow-lg focus:outline-none focus:ring-0 active:bg-[#616161] active:shadow-lg">Book Now</button>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -119,7 +130,9 @@ const Home = () => {
                             <p class="text-gray-700 text-base mb-12 md:mb-6 lg:mb-12 xl:mb-14 text-left">
                                 5 lesson package deal for $300.00 (5 lessons / 5 hours)
                             </p>
-                            <button type="button" class=" inline-block mb-1 md:mb-0 xl:mb-4 px-6 py-2.5 bg-[#424242] text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-[#616161] hover:shadow-lg focus:bg-[#616161] focus:shadow-lg focus:outline-none focus:ring-0 active:bg-[#616161] active:shadow-lg">Book Now</button>
+                            <Link to="/book-now">
+                                <button type="button" class=" inline-block mb-1 md:mb-0 xl:mb-4 px-6 py-2.5 bg-[#424242] text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-[#616161] hover:shadow-lg focus:bg-[#616161] focus:shadow-lg focus:outline-none focus:ring-0 active:bg-[#616161] active:shadow-lg">Book Now</button>
+                            </Link>
                         </div>
                     </div>
                 </div>
