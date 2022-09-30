@@ -122,7 +122,7 @@ const Home = () => {
                                 Basic Plan
                             </p>
                             <p class="text-gray-700 text-base mb-8 text-left">
-                                $65.00 per hour / per Lessons
+                                $65.00 per hour / per lesson
                             </p>
                             <p class="text-gray-900 text-base font-bold mb-1 text-left">
                                 Premium Package deal
