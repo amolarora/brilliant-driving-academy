@@ -118,13 +118,13 @@ const Home = () => {
                             <h5 class="text-gray-900 text-2xl font-semibold mt-[4px] md:mt-[4px] lg:mt-[30px] xl:mt-[40px] mb-8 md:mb-6 lg:mb-10 xl:mb-12">
                                 Pricing
                             </h5>
-                            <p class="text-gray-900 text-base font-bold mb-1 text-left">
+                            <p class="text-gray-900 text-base font-semibold mb-1 text-left">
                                 Basic Plan
                             </p>
                             <p class="text-gray-700 text-base mb-8 text-left">
                                 $65.00 per hour / per lesson
                             </p>
-                            <p class="text-gray-900 text-base font-bold mb-1 text-left">
+                            <p class="text-gray-900 text-base font-semibold mb-1 text-left">
                                 Premium Package deal
                             </p>
                             <p class="text-gray-700 text-base mb-12 md:mb-6 lg:mb-12 xl:mb-14 text-left">

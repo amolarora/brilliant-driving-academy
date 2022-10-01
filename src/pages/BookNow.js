@@ -18,7 +18,7 @@ const BookNow = () => {
 
     return (
         <div className='mb-10'>
-            <h1 className='py-[30px] text-[28px] font-extrabold'>Request a Booking</h1>
+            <h1 className='py-[30px] text-[28px] font-bold'>Request a Booking</h1>
             
             <div className='w-[100vw] flex justify-center'>
                 <div class="block p-6 rounded-lg shadow-xl bg-white max-w-[90vw] sm:max-w-2xl">

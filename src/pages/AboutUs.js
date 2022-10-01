@@ -19,7 +19,7 @@ const AboutUs = () => {
                 </div>
             </div>
 
-            <div className='py-[30px] text-[12px] sm:text-[18px] font-extrabold w-[75vw] mx-[12.5vw] sm:w-[70vw] sm:mx-[15vw] sm:mt-5 text-left'>
+            <div className='py-[30px] text-[12px] sm:text-[18px] font-[500] w-[75vw] mx-[12.5vw] sm:w-[70vw] sm:mx-[15vw] sm:mt-5 text-left'>
                 <p>At Brilliant Driving Academy you're in great hands, instructor Jai Nair is a qualified professional driving instructor with 16 years of experience in New Zealand (12 years of experience with AA).</p> <br></br>
                 <p>We train drivers at all experience levels, whether you're a novice driver or someone preparing for their full licence test. We got you covered!</p> <br></br>
                 

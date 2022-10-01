@@ -20,13 +20,13 @@ const ContactUs = () => {
     
     return (
         <div className='bg-[#fdfdfd] sm:h-[calc(100vh-180px)] mb-10'>
-            <h1 className='py-[30px] text-[28px] font-extrabold'>Contact Us</h1>
+            <h1 className='py-[30px] text-[28px] font-bold'>Contact Us</h1>
             
             <div className='w-[100vw]'>
 
                 {/* Instructor Details */}
                 <div class="inline-block lg:mr-[10px] xl:mr-[200px]">
-                    <h2 className='text-[22px] pb-2'>Reach out to us</h2>
+                    <h2 className='text-[22px] pb-2 font-semibold'>Reach out to us</h2>
                     <div class="block rounded-lg shadow-lg bg-white w-[350px] md:w-[500px] text-center">
                         <div class="py-6 px-6 text-gray-600 border-b border-gray-300 font-bold">
                             Trainer
@@ -51,7 +51,7 @@ const ContactUs = () => {
                 
                 {/* Enquiry Form */}
                 <div className='inline-block mt-10 lg:mt-0'>
-                    <h2 className='text-[22px] pb-2'>Make an Enquiry</h2>
+                    <h2 className='text-[22px] pb-2 font-semibold'>Make an Enquiry</h2>
                     <div class="block p-6 rounded-lg shadow-xl bg-white w-[350px] md:w-[500px]">
                         <form ref={form} onSubmit={sendEmail}>
                             <div class="form-group mb-6">
