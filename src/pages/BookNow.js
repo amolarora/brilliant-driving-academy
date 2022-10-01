@@ -39,7 +39,9 @@ const BookNow = () => {
                                 m-0
                                 focus:text-gray-700 focus:bg-white focus:border-[#fdd835] focus:outline-none focus:ring-0" id="exampleInput125"
                                 placeholder="Your Name"
-                                name="customer-name">
+                                name="customer-name"
+                                required
+                            >
                             </input>
                         </div>
                         <div class="grid grid-cols-2 gap-4">
@@ -59,7 +61,9 @@ const BookNow = () => {
                                     m-0
                                     focus:text-gray-700 focus:bg-white focus:border-[#fdd835] focus:outline-none focus:ring-0" id="exampleInput125"
                                     placeholder="Email"
-                                    name="customer-email">
+                                    name="customer-email"
+                                    required
+                                >
                                 </input>
                             </div>
                             <div class="form-group mb-6">
@@ -79,6 +83,7 @@ const BookNow = () => {
                                     focus:text-gray-700 focus:bg-white focus:border-[#fdd835] focus:outline-none focus:ring-0" id="exampleInput125"
                                     placeholder="Phone Number"
                                     name="customer-phone"
+                                    required
                                 >
                                 </input>
                             </div>
@@ -101,6 +106,7 @@ const BookNow = () => {
                                 focus:text-gray-700 focus:bg-white focus:border-[#fdd835] focus:outline-none focus:ring-0" id="exampleInput123"
                                 aria-describedby="emailHelp123"
                                 name="service"
+                                required
                             >
                                 <option value="" disabled selected>Choose from our services</option>
                                 <option value="Training for Novice Drivers">Training for students with no experience (Beginners / Novice drivers)</option>
@@ -128,6 +134,7 @@ const BookNow = () => {
                                 focus:text-gray-700 focus:bg-white focus:border-[#fdd835] focus:outline-none focus:ring-0" id="exampleInput123"
                                 aria-describedby="emailHelp123"
                                 name="plan"
+                                required
                             >
                                 <option value="" disabled selected>Select your plan</option>
                                 <option value="Basic Plan ($65.00)">Basic Plan - $65.00 per hour / per lesson</option>
@@ -152,6 +159,7 @@ const BookNow = () => {
                                 rows="4"
                                 placeholder="Your message..."
                                 name="message"
+                                required
                             >
                             </textarea>
                         </div>

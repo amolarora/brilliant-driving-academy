@@ -39,11 +39,9 @@ const ContactUs = () => {
                             </p>
                         </div>
                         <div class="py-[25px] text-[13px] md:text-[15px] border-t border-gray-300 font-bold lg:font-bold px-2 text-gray-600">
-                            {/* <p className='inline-block pr-1'>Phone:</p> */}
                             <img src={phoneImg} className="w-[18px] pr-1 mt-[-2px] inline-block" alt="Telephone icon"></img>
                             <a href="tel:0211668456" className='text-[#1558d6] hover:underline inline-block pr-3 lg:pr-3 md:pr-4'>0211668456</a> 
                             <br className='block lg:hidden'></br>
-                            {/* <p className='inline-block pr-1'>Email:</p> */}
                             <img src={emailImg} className="w-[25px] pr-2 mt-[-2px] inline-block" alt="Email icon"></img>
                             <a href="mailto:jai@brilliantdrivingacademy.co.nz" className='text-[#1558d6] inline-block hover:underline'>jai@brilliantdrivingacademy.co.nz</a>
                         </div>
@@ -71,7 +69,9 @@ const ContactUs = () => {
                                     m-0
                                     focus:text-gray-700 focus:bg-white focus:border-[#fdd835] focus:outline-none focus:ring-0" id="exampleInput125"
                                     placeholder="Your Name"
-                                    name="customer-name">
+                                    name="customer-name"
+                                    required
+                                >
                                 </input>
                             </div>
                             <div class="grid grid-cols-2 gap-4">
@@ -91,7 +91,9 @@ const ContactUs = () => {
                                         m-0
                                         focus:text-gray-700 focus:bg-white focus:border-[#fdd835] focus:outline-none focus:ring-0" id="exampleInput125"
                                         placeholder="Email"
-                                        name="customer-email">
+                                        name="customer-email"
+                                        required
+                                    >
                                     </input>
                                 </div>
                                 <div class="form-group mb-6">
@@ -111,6 +113,7 @@ const ContactUs = () => {
                                         focus:text-gray-700 focus:bg-white focus:border-[#fdd835] focus:outline-none focus:ring-0" id="exampleInput125"
                                         placeholder="Phone Number"
                                         name="customer-phone"
+                                        required
                                     >
                                     </input>
                                 </div>
@@ -133,6 +136,7 @@ const ContactUs = () => {
                                     rows="4"
                                     placeholder="Your message..."
                                     name="message"
+                                    required
                                 >
                                 </textarea>
                             </div>
