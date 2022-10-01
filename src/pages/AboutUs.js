@@ -12,14 +12,14 @@ const AboutUs = () => {
                             <img src={AboutUsImg} className='block w-[100vw] brightness-[0.6] h-[20vh] sm:h-[32vh] md:h-[32vh] lg:h-[32vh] xl:h-[80vh] object-cover' alt=''></img>
                             <div class="text-[#fff] md:block absolute text-center">
                                 <h5 class="text-[25px] font-semibold md:text-[50px] lg:text-[60px] xl:text-[80px] font-BebasNeue">About Us</h5>
-                                <p className='text-[10px] md:text-[15px] lg:text-[20px] xl:text-[25px] font-bold sm:font-bold max-w-[75vw] sm:max-w-[70vw]'>Brilliant Driving Academy believes in relentless pursuit of exceptional driving by providing very high quality driving instructions.</p>
+                                <p className='text-[12px] md:text-[15px] lg:text-[20px] xl:text-[25px] font-bold sm:font-bold max-w-[75vw] sm:max-w-[70vw]'>Brilliant Driving Academy believes in relentless pursuit of exceptional driving by providing very high quality driving instructions.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div className='py-[30px] text-[12px] sm:text-[18px] font-[500] w-[75vw] mx-[12.5vw] sm:w-[70vw] sm:mx-[15vw] sm:mt-5 text-left'>
+            <div className='py-[30px] text-[13px] sm:text-[18px] font-[500] w-[75vw] mx-[12.5vw] sm:w-[70vw] sm:mx-[15vw] sm:mt-5 text-left'>
                 <p>At Brilliant Driving Academy you're in great hands, instructor Jai Nair is a qualified professional driving instructor with 16 years of experience in New Zealand (12 years of experience with AA).</p> <br></br>
                 <p>We train drivers at all experience levels, whether you're a novice driver or someone preparing for their full licence test. We got you covered!</p> <br></br>
                 
@@ -41,7 +41,7 @@ const AboutUs = () => {
 
                 <br></br>
 
-                <p>
+                <p className='text-[14px] font-bold'>
                     Contact us on <a href="tel:0211668456" className='text-[#1558d6] hover:underline'>0211668456</a>, 
                     or email us at <a href="mailto:jai@brilliantdrivingacademy.co.nz" className='text-[#1558d6] hover:underline'>jai@brilliantdrivingacademy.co.nz</a>
                 </p>

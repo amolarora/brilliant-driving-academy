@@ -19,7 +19,7 @@ const ContactUs = () => {
     };
     
     return (
-        <div className='bg-[#fdfdfd] sm:h-[calc(100vh-180px)] mb-10'>
+        <div className='bg-[#fdfdfd] sm:h-[calc(100vh-180px)] mb-10 md:mb-20 lg:mb-10'>
             <h1 className='py-[30px] text-[28px] font-bold'>Contact Us</h1>
             
             <div className='w-[100vw]'>
@@ -38,10 +38,11 @@ const ContactUs = () => {
                                 (12 years of experience with AA)
                             </p>
                         </div>
-                        <div class="py-[25px] text-[12px] md:text-[15px] border-t border-gray-300 font-bold lg:font-bold px-2 text-gray-600">
+                        <div class="py-[25px] text-[13px] md:text-[15px] border-t border-gray-300 font-bold lg:font-bold px-2 text-gray-600">
                             {/* <p className='inline-block pr-1'>Phone:</p> */}
-                            <img src={phoneImg} className="w-[20px] pr-2 mt-[-2px] inline-block" alt="Telephone icon"></img>
-                            <a href="tel:0211668456" className='text-[#1558d6] hover:underline inline-block pr-3 md:pr-4'>0211668456</a>
+                            <img src={phoneImg} className="w-[18px] pr-1 mt-[-2px] inline-block" alt="Telephone icon"></img>
+                            <a href="tel:0211668456" className='text-[#1558d6] hover:underline inline-block pr-3 lg:pr-3 md:pr-4'>0211668456</a> 
+                            <br className='block lg:hidden'></br>
                             {/* <p className='inline-block pr-1'>Email:</p> */}
                             <img src={emailImg} className="w-[25px] pr-2 mt-[-2px] inline-block" alt="Email icon"></img>
                             <a href="mailto:jai@brilliantdrivingacademy.co.nz" className='text-[#1558d6] inline-block hover:underline'>jai@brilliantdrivingacademy.co.nz</a>
