@@ -129,7 +129,7 @@ const BookNow = () => {
                                 aria-describedby="emailHelp123"
                                 name="plan"
                             >
-                                <option value="" disabled selected>Sellect your plan</option>
+                                <option value="" disabled selected>Select your plan</option>
                                 <option value="Basic Plan ($65.00)">Basic Plan - $65.00 per hour / per lesson</option>
                                 <option value="Premium Package ($300.00)">Premium Package deal - 5 lesson package deal for $300.00 (5 lessons / 5 hours)</option>
                             </select>
