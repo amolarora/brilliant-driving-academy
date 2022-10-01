@@ -23,9 +23,34 @@ const ContactUs = () => {
             <h1 className='py-[30px] text-[28px] font-extrabold'>Contact Us</h1>
             
             <div className='w-[100vw]'>
+
+                {/* Instructor Details */}
+                <div class="inline-block lg:mr-[10px] xl:mr-[200px]">
+                    <h2 className='text-[22px] pb-2'>Reach out to us</h2>
+                    <div class="block rounded-lg shadow-lg bg-white w-[350px] md:w-[500px] text-center">
+                        <div class="py-6 px-6 text-gray-600 border-b border-gray-300 font-bold">
+                            Trainer
+                        </div>
+                        <div class="p-8">
+                            <h5 class="text-gray-900 text-xl font-medium mb-2">Jai Nair</h5>
+                            <p class="text-gray-700 text-[14px] md:text-[16px] mb-4">
+                                16 years of experience in New Zealand <br></br>
+                                (12 years of experience with AA)
+                            </p>
+                        </div>
+                        <div class="py-[25px] text-[12px] md:text-[15px] border-t border-gray-300 font-bold lg:font-bold px-2 text-gray-600">
+                            {/* <p className='inline-block pr-1'>Phone:</p> */}
+                            <img src={phoneImg} className="w-[20px] pr-2 mt-[-2px] inline-block" alt="Telephone icon"></img>
+                            <a href="tel:0211668456" className='text-[#1558d6] hover:underline inline-block pr-3 md:pr-4'>0211668456</a>
+                            {/* <p className='inline-block pr-1'>Email:</p> */}
+                            <img src={emailImg} className="w-[25px] pr-2 mt-[-2px] inline-block" alt="Email icon"></img>
+                            <a href="mailto:jai@brilliantdrivingacademy.co.nz" className='text-[#1558d6] inline-block hover:underline'>jai@brilliantdrivingacademy.co.nz</a>
+                        </div>
+                    </div>
+                </div>
                 
                 {/* Enquiry Form */}
-                <div className='inline-block lg:mr-[10px] xl:mr-[200px]'>
+                <div className='inline-block mt-10 lg:mt-0'>
                     <h2 className='text-[22px] pb-2'>Make an Enquiry</h2>
                     <div class="block p-6 rounded-lg shadow-xl bg-white w-[350px] md:w-[500px]">
                         <form ref={form} onSubmit={sendEmail}>
@@ -132,31 +157,6 @@ const ContactUs = () => {
                                 Submit Enquiry
                             </button>
                         </form>
-                    </div>
-                </div>
-
-                {/* Instructor Details */}
-                <div class="inline-block mt-10 lg:mt-0">
-                    <h2 className='text-[22px] pb-2'>Reach out to us</h2>
-                    <div class="block rounded-lg shadow-lg bg-white w-[350px] md:w-[500px] text-center">
-                        <div class="py-6 px-6 text-gray-600 border-b border-gray-300 font-bold">
-                            Trainer
-                        </div>
-                        <div class="p-8">
-                            <h5 class="text-gray-900 text-xl font-medium mb-2">Jai Nair</h5>
-                            <p class="text-gray-700 text-[14px] md:text-[16px] mb-4">
-                                16 years of experience in New Zealand <br></br>
-                                (12 years of experience with AA)
-                            </p>
-                        </div>
-                        <div class="py-[25px] text-[10px] md:text-[15px] border-t border-gray-300 font-extrabold lg:font-bold px-4 text-gray-600">
-                            {/* <p className='inline-block pr-1'>Phone:</p> */}
-                            <img src={phoneImg} className="w-[20px] pr-2 mt-[-2px] inline-block" alt="Telephone icon"></img>
-                            <a href="tel:0211668456" className='text-[#1558d6] hover:underline inline-block pr-4 md:pr-4'>0211668456</a>
-                            {/* <p className='inline-block pr-1'>Email:</p> */}
-                            <img src={emailImg} className="w-[25px] pr-2 mt-[-2px] inline-block" alt="Email icon"></img>
-                            <a href="mailto:jai@brilliantdrivingacademy.co.nz" className='text-[#1558d6] inline-block hover:underline'>jai@brilliantdrivingacademy.co.nz</a>
-                        </div>
                     </div>
                 </div>
             </div>

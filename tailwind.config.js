@@ -22,6 +22,7 @@ module.exports = {
       },
       fontFamily: {
         BebasNeue: ["Bebas Neue", "cursive"],
+        OpenSans: ["Open Sans", "sans-serif"],
       },
     },
   },
