@@ -41,7 +41,7 @@ const AboutUs = () => {
 
                 <br></br>
 
-                <p className='text-[14px] font-bold'>
+                <p className='text-[14px] sm:text-[18px] font-bold'>
                     Contact us on <a href="tel:0211668456" className='text-[#1558d6] hover:underline'>0211668456</a>, 
                     or email us at <a href="mailto:jai@brilliantdrivingacademy.co.nz" className='text-[#1558d6] hover:underline'>jai@brilliantdrivingacademy.co.nz</a>
                 </p>
