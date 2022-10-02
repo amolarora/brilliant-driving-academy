@@ -1,10 +1,17 @@
 import React from 'react'
 import 'tw-elements';
 import AboutUsImg from '../images/About-Us.png'
+import { Helmet } from 'react-helmet-async'
 
 const AboutUs = () => {
     return (
         <>
+            <Helmet>
+                <title>Brilliant Driving Academy | About Us</title>
+                <meta name="description" content="Brilliant Driving Academy is where driving journey begins! We believe in the relentless pursuit of exceptional driving by providing very high quality driving lessons." />
+                <link rel="canonical" href="/about-us" />
+            </Helmet>
+
             <div id="carouselExampleCaptions" className="carousel slide relative" data-bs-ride="carousel">
                 <div class="carousel-inner relative w-full overflow-hidden">
                     <div class="carousel-item active relative float-left w-full">
