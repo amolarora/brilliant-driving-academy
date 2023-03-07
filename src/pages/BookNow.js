@@ -21,7 +21,7 @@ const BookNow = () => {
         <>
             <Helmet>
                 <title>Brilliant Driving Academy | Book Now</title>
-                <meta name="description" content="We offer flexible plans: Basic Plan - $65.00 per hour / per lesson & Premium Package - 5 lesson package deal for $300.00 (5 lessons / 5 hours)" />
+                <meta name="description" content="We offer flexible plans: Basic Plan - $60.00 per hour / per lesson & Premium Package - 5 lesson package deal for $275.00 (5 lessons / 5 hours)" />
                 <link rel="canonical" href="/book-now" />
             </Helmet>
 
@@ -145,8 +145,8 @@ const BookNow = () => {
                                     required
                                 >
                                     <option value="" disabled selected>Select your plan</option>
-                                    <option value="Basic Plan ($65.00)">Basic Plan - $65.00 per hour / per lesson</option>
-                                    <option value="Premium Package ($300.00)">Premium Package deal - 5 lesson package deal for $300.00 (5 lessons / 5 hours)</option>
+                                    <option value="Basic Plan ($60.00)">Basic Plan - $60.00 per hour / per lesson</option>
+                                    <option value="Premium Package ($275.00)">Premium Package deal - 5 lesson package deal for $275.00 (5 lessons / 5 hours)</option>
                                 </select>
                             </div>
                             <div class="form-group mb-6">

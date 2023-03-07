@@ -42,8 +42,8 @@ const AboutUs = () => {
 
                 <p>We offer flexible plans:</p>
                 <ul className='list-disc ml-[1rem]'>
-                    <li>Basic Plan - $65.00 per hour / per lesson</li>
-                    <li>Premium Package - 5 lesson package deal for $300.00 (5 lessons / 5 hours)</li>
+                    <li>Basic Plan - $60.00 per hour / per lesson</li>
+                    <li>Premium Package - 5 lesson package deal for $275.00 (5 lessons / 5 hours)</li>
                 </ul>
 
                 <br></br>

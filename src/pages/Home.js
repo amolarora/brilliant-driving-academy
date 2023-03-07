@@ -130,13 +130,13 @@ const Home = () => {
                                     Basic Plan
                                 </p>
                                 <p class="text-gray-700 text-base mb-8 text-left">
-                                    $65.00 per hour / per lesson
+                                    $60.00 per hour / per lesson
                                 </p>
                                 <p class="text-gray-900 text-base font-semibold mb-1 text-left">
                                     Premium Package deal
                                 </p>
                                 <p class="text-gray-700 text-base mb-12 md:mb-6 lg:mb-12 xl:mb-14 text-left">
-                                    5 lesson package deal for $300.00 (5 lessons / 5 hours)
+                                    5 lesson package deal for $275.00 (5 lessons / 5 hours)
                                 </p>
                                 <Link to="/book-now">
                                     <button type="button" class=" inline-block mb-1 md:mb-0 xl:mb-4 px-6 py-2.5 bg-[#424242] text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-[#616161] hover:shadow-lg focus:bg-[#616161] focus:shadow-lg focus:outline-none focus:ring-0 active:bg-[#616161] active:shadow-lg">Book Now</button>
